@@ -31,7 +31,6 @@ def read_log_files(log_dir: Path) -> str:
 def calculate_cost(prompt_tokens, completion_tokens, model):
     """
     Calculate cost based on token usage.
-    Only supports gpt-4o-mini and gpt-4 models.
     
     Args:
         prompt_tokens (int): Number of input tokens
@@ -47,9 +46,9 @@ def calculate_cost(prompt_tokens, completion_tokens, model):
             "input": 0.15,     # $0.15 per 1M input tokens
             "output": 0.60     # $0.60 per 1M output tokens
         },
-        "gpt-4": {
-            "input": 30.00,    # $30.00 per 1M input tokens
-            "output": 60.00    # $60.00 per 1M output tokens
+        "gpt-4o": {
+            "input": 2.50,    # $2.50 per 1M input tokens
+            "output": 10.00   # $10.00 per 1M output tokens
         }
     }
     

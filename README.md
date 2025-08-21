@@ -185,7 +185,7 @@ Completed! Check 'results' folder for details.
 ```bash
 # In .env file
 OPENAI_MODEL=gpt-4o-mini  # Cheapest
-OPENAI_MODEL=gpt-4        # Best but more expensive
+OPENAI_MODEL=gpt-4o       # Best but more expensive
 ```
 
 ### Add new prompts:
@@ -244,14 +244,14 @@ tail -f wowza_analysis.log
 ## 💰 Usage Costs
 
 ### Estimated costs (USD):
-- **gpt-4o-mini**: ~$0.001-0.005 per analysis
-- **gpt-4**: ~$0.05-0.20 per analysis
+- **gpt-4o-mini**: $0.15-$0.60 Prices per 1M tokens.
+- **gpt-40**: $2.5-10.00 Prices per 1M tokens.
 
 📋 **Official pricing**: https://platform.openai.com/docs/pricing
 
 ### Cost-saving tips:
 - ✅ Use `gpt-4o-mini` for daily analysis
-- ✅ Only use `gpt-4` when high accuracy is needed
+- ✅ Only use `gpt-4o` when high accuracy is needed
 - ✅ Filter log files before analysis
 
 ## 🔄 Recommended Workflow
@@ -275,7 +275,7 @@ tail -f wowza_analysis.log
 ### APIs used:
 - **OpenAI Responses API**: `client.responses.create()` with input/output format
 - **Automatic error handling**: OpenAIError, ConnectionError, TimeoutError
-- **Token tracking**: Real-time cost monitoring for gpt-4o-mini and gpt-4
+- **Token tracking**: Real-time cost monitoring for gpt-4o-mini and gpt-4o
 
 ### Actual files in project:
 - ✅ `.env.example` - Template config file
