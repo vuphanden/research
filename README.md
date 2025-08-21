@@ -247,6 +247,8 @@ tail -f wowza_analysis.log
 - **gpt-4o-mini**: ~$0.001-0.005 per analysis
 - **gpt-4**: ~$0.05-0.20 per analysis
 
+📋 **Official pricing**: https://platform.openai.com/docs/pricing
+
 ### Cost-saving tips:
 - ✅ Use `gpt-4o-mini` for daily analysis
 - ✅ Only use `gpt-4` when high accuracy is needed
