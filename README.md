@@ -44,7 +44,7 @@ AI-powered analysis tool using OpenAI - Automatically analyzes errors and provid
 ### Step 1: Clone/Download Project
 ```bash
 # If you have git
-git clone <repository-url>
+git clone <https://github.com/vuphanden/research.git>
 cd Research
 
 # Or download and extract ZIP
