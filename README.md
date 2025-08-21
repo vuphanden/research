@@ -10,10 +10,9 @@ AI-powered analysis tool using OpenAI - Automatically analyzes errors and provid
 │   └── launch.json          # VS Code debug configuration
 ├── 📁 src/                  # Main source code
 │   ├── main.py             # Entry point - run the program
-│   ├── ai_analyzer.py      # OpenAI analysis engine
+│   ├── ai_analyzer.py      # OpenAI analysis
 │   ├── prompts.py          # Analysis prompts
 │   ├── config.py           # Configuration management
-│   └── log_parser.py       # Log file parsing utilities
 ├── 📁 logs/                # Place Wowza log files here
 ├── 📁 results/             # Analysis results (JSON files)
 ├── .env                    # Environment variables (API keys)
