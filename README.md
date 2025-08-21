@@ -280,5 +280,4 @@ tail -f wowza_analysis.log
 - ✅ `requirements.txt` - openai>=1.0.0, python-dotenv>=1.0.0  
 - ✅ `.vscode/launch.json` - Debug configuration "Run Main"
 - ✅ `logs/` and `results/` folders
-- ⚠️ `test_simple.py` - Empty file (can be deleted)
 
