@@ -49,6 +49,10 @@ def calculate_cost(prompt_tokens, completion_tokens, model):
         "gpt-4o": {
             "input": 2.50,    # $2.50 per 1M input tokens
             "output": 10.00   # $10.00 per 1M output tokens
+        },
+        "gpt-5": {
+            "input": 1.25,    # $1.25 per 1M input tokens
+            "output": 10.00   # $10.00 per 1M output tokens
         }
     }
     
@@ -95,7 +99,7 @@ def analyze_logs(logs_folder):
     simple_prompts = WowzaAnalysisPrompts.get_simple_prompts()
     
     # Combine all prompts
-    all_prompts = {**simple_prompts, **detailed_prompts}
+    all_prompts = {**simple_prompts}
     
     print(f"\nStarting complete OpenAI analysis ({len(all_prompts)} prompts)...")
     

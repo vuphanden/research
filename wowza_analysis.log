@@ -1,0 +1,83 @@
+2025-08-22 10:34:14,088 - INFO - Starting analysis: main_errors with model gpt-4o-mini
+2025-08-22 10:34:29,424 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 10:34:35,413 - INFO - SUCCESS: main_errors - 15.81s - 69414 tokens - $0.010708
+2025-08-22 10:34:35,635 - INFO - Starting analysis: root_causes with model gpt-4o-mini
+2025-08-22 10:35:08,706 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 10:35:08,709 - INFO - SUCCESS: root_causes - 33.07s - 70546 tokens - $0.011388
+2025-08-22 10:35:08,952 - INFO - Starting analysis: solutions with model gpt-4o-mini
+2025-08-22 10:35:30,714 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 10:35:30,716 - INFO - SUCCESS: solutions - 21.76s - 69791 tokens - $0.010935
+2025-08-22 10:35:30,960 - INFO - Starting analysis: error_classification with model gpt-4o-mini
+2025-08-22 10:35:57,505 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 10:35:57,507 - INFO - SUCCESS: error_classification - 26.55s - 70006 tokens - $0.010514
+2025-08-22 10:35:57,509 - INFO - Total analysis completed - Model: gpt-4o-mini - Tokens: 279,757 - Cost: $0.043545
+2025-08-22 15:46:43,823 - INFO - Starting analysis: main_errors with model gpt-5
+2025-08-22 15:46:48,679 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 400 Bad Request"
+2025-08-22 15:46:48,683 - ERROR - FAILED: main_errors - 4.86s - Error: Error code: 400 - {'error': {'message': "Unsupported parameter: 'temperature' is not supported with this model.", 'type': 'invalid_request_error', 'param': 'temperature', 'code': None}}
+2025-08-22 15:46:48,922 - INFO - Starting analysis: root_causes with model gpt-5
+2025-08-22 15:46:50,467 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 400 Bad Request"
+2025-08-22 15:46:50,468 - ERROR - FAILED: root_causes - 1.55s - Error: Error code: 400 - {'error': {'message': "Unsupported parameter: 'temperature' is not supported with this model.", 'type': 'invalid_request_error', 'param': 'temperature', 'code': None}}
+2025-08-22 15:46:50,709 - INFO - Starting analysis: solutions with model gpt-5
+2025-08-22 15:46:52,463 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 400 Bad Request"
+2025-08-22 15:46:52,464 - ERROR - FAILED: solutions - 1.75s - Error: Error code: 400 - {'error': {'message': "Unsupported parameter: 'temperature' is not supported with this model.", 'type': 'invalid_request_error', 'param': 'temperature', 'code': None}}
+2025-08-22 15:46:52,466 - INFO - Total analysis completed - Model: gpt-5 - Tokens: 0 - Cost: $0.0
+2025-08-22 15:47:41,111 - INFO - Starting analysis: main_errors with model gpt-5
+2025-08-22 15:47:44,821 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 400 Bad Request"
+2025-08-22 15:48:04,869 - INFO - Starting analysis: main_errors with model gpt-5
+2025-08-22 15:48:09,242 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-08-22 15:48:09,245 - INFO - Retrying request to /responses in 0.443112 seconds
+2025-08-22 15:48:10,989 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-08-22 15:48:10,990 - INFO - Retrying request to /responses in 0.988127 seconds
+2025-08-22 15:48:13,115 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-08-22 15:49:25,160 - INFO - Starting analysis: main_errors with model gpt-4o
+2025-08-22 15:49:34,888 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-08-22 15:49:34,891 - INFO - Retrying request to /responses in 0.400613 seconds
+2025-08-22 15:49:41,186 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-08-22 15:49:41,187 - INFO - Retrying request to /responses in 0.977860 seconds
+2025-08-22 15:49:49,385 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-08-22 15:50:58,980 - INFO - Starting analysis: main_errors with model gpt-4o
+2025-08-22 15:51:06,713 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-08-22 15:51:06,716 - INFO - Retrying request to /responses in 0.492518 seconds
+2025-08-22 15:51:13,940 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-08-22 15:51:13,941 - INFO - Retrying request to /responses in 0.911486 seconds
+2025-08-22 16:24:37,691 - INFO - Starting analysis: main_errors with model gpt-4o
+2025-08-22 16:24:46,464 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-08-22 16:24:46,470 - INFO - Retrying request to /responses in 0.390712 seconds
+2025-08-22 16:24:53,510 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-08-22 16:24:53,511 - INFO - Retrying request to /responses in 0.946209 seconds
+2025-08-22 16:25:01,264 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-08-22 16:45:35,404 - INFO - Starting analysis: main_errors with model gpt-4o
+2025-08-22 16:45:44,231 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-08-22 16:45:44,234 - INFO - Retrying request to /responses in 0.473377 seconds
+2025-08-22 16:45:52,133 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-08-22 16:45:52,134 - INFO - Retrying request to /responses in 0.922786 seconds
+2025-08-22 16:51:50,659 - INFO - Starting analysis: main_errors with model gpt-4o
+2025-08-22 16:52:00,704 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-08-22 16:52:00,707 - INFO - Retrying request to /responses in 0.390257 seconds
+2025-08-22 16:52:09,108 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-08-22 16:52:09,108 - INFO - Retrying request to /responses in 0.788957 seconds
+2025-08-22 16:52:15,788 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-08-22 16:54:30,867 - INFO - Starting analysis: main_errors with model gpt-4o-mini
+2025-08-22 16:54:48,848 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 16:54:49,682 - INFO - SUCCESS: main_errors - 18.81s - 69494 tokens - $0.010756
+2025-08-22 16:54:50,074 - INFO - Starting analysis: root_causes with model gpt-4o-mini
+2025-08-22 16:56:02,284 - INFO - Starting analysis: main_errors with model gpt-4o-mini
+2025-08-22 16:56:16,236 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 16:56:16,693 - INFO - SUCCESS: main_errors - 14.41s - 16970 tokens - $0.002793
+2025-08-22 16:56:16,906 - INFO - Starting analysis: root_causes with model gpt-4o-mini
+2025-08-22 16:56:41,637 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 16:56:41,641 - INFO - SUCCESS: root_causes - 24.73s - 17446 tokens - $0.00308
+2025-08-22 16:56:41,884 - INFO - Starting analysis: solutions with model gpt-4o-mini
+2025-08-22 16:57:01,139 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 16:57:01,142 - INFO - SUCCESS: solutions - 19.26s - 17507 tokens - $0.003117
+2025-08-22 16:57:01,143 - INFO - Total analysis completed - Model: gpt-4o-mini - Tokens: 51,923 - Cost: $0.008991
+2025-08-22 16:58:36,591 - INFO - Starting analysis: main_errors with model gpt-4o
+2025-08-22 16:58:55,453 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 16:58:55,915 - INFO - SUCCESS: main_errors - 19.32s - 17079 tokens - $0.047648
+2025-08-22 16:58:56,130 - INFO - Starting analysis: root_causes with model gpt-4o
+2025-08-22 16:59:24,935 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 16:59:24,938 - INFO - SUCCESS: root_causes - 28.81s - 17472 tokens - $0.0516
+2025-08-22 16:59:25,180 - INFO - Starting analysis: solutions with model gpt-4o
+2025-08-22 16:59:46,322 - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-08-22 16:59:46,324 - INFO - SUCCESS: solutions - 21.14s - 17417 tokens - $0.05105
+2025-08-22 16:59:46,326 - INFO - Total analysis completed - Model: gpt-4o - Tokens: 51,968 - Cost: $0.150298
