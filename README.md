@@ -248,6 +248,7 @@ tail -f wowza_analysis.log
 - **gpt-40**: $2.5-10.00 Prices per 1M tokens.
 
 📋 **Official pricing**: https://platform.openai.com/docs/pricing
+🔢 **Token calculator**: https://platform.openai.com/tokenizer
 
 ### Cost-saving tips:
 - ✅ Use `gpt-4o-mini` for daily analysis
